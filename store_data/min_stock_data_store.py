@@ -8,7 +8,7 @@ import mariadb
 import pymysql
 pymysql.install_as_MySQLdb()
 import datetime
-from auto_login import Cybos
+from ..utils.auto_login import Cybos
 
 class Day_stock_data_store:
     def __init__(self):
@@ -27,8 +27,8 @@ class Day_stock_data_store:
 
     def auto_login():
         cybos = Cybos()
-        id = '0913ktg'
-        password = 'eorua12!'
+        id = 'your ID'
+        password = 'your PW'
         cybos.connect(id, password)
         
     def check_connection(self):
