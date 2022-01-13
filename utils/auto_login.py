@@ -30,9 +30,7 @@ class Cybos:
       app.start(
         'C:\Daishin\Starter\\ncStarter.exe /prj:cp /id:{id} /pwd:{pwd} /autostart'.format(id=id_, pwd=pwd)
       )
-    # while not self.connected():
-    #   time.sleep(1)
-    # return True
+  
 
   def connected(self):
     b_connected = self.g_objCpStatus.IsConnect
@@ -51,7 +49,7 @@ class Cybos:
 
 if __name__ == '__main__':
   cybos = Cybos()
-  id = '0913ktg'
-  password = 'eorua12!'
+  id = 'your ID'
+  password = 'your PW'
   cybos.connect(id, password)
  
