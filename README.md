@@ -1,5 +1,5 @@
 # StockPricePrediction
-
+## win32 가상환경(Anaconda)
 ## MariaDB
 ## 대신증권 API (Cybos Plus)
 
